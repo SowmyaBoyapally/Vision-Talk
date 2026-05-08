@@ -1,6 +1,20 @@
-# Vision-Talk
-This work addresses the challenge of interacting with visual content through natural and accessible user interfaces, where most existing systems rely on cloud services or predefined query formats. We present Vision Talk, an offline multimodal image question-answering system that enables users to query images using either text or voice input and receive responses in both textual and spoken form. The system combines image captioning for visual understanding, automatic speech recognition for voice input, and a locally deployed language model for context-aware response generation. Text-to-speech synthesis is used to deliver audible output, enabling hands-free and accessible interaction.
-Unlike cloud-centric vision–language systems, the proposed framework operates entirely on local hardware without requiring paid APIs, internet connectivity, or GPU acceleration. The system supports open-ended image-based queries and flexible interaction rather than fixed commands. Experimental observations indicate that the framework produces coherent responses with practical latency on CPU-based systems. The proposed approach demonstrates the feasibility of deploying multimodal image understanding systems in offline and resource-constrained environments, with potential applications in accessibility tools, education, and assistive technologies.
+# Vision Talk
 
-# Keywords
-Image Question Answering, Multimodal AI, Vision–Language Interaction, Speech Processing, Offline Deployment
+Vision Talk is an offline multimodal AI assistant designed for image-based question answering using text and voice interaction. The system enables users to upload an image, ask open-ended questions through either typed or spoken input, and receive responses in both textual and speech format. Unlike cloud-dependent vision-language systems, Vision Talk operates entirely on local hardware without requiring internet connectivity, paid APIs, or GPU acceleration.
+
+The framework integrates BLIP for image understanding, Whisper for automatic speech recognition, FLAN-T5 for context-aware response generation, and gTTS for text-to-speech synthesis within a unified low-latency inference pipeline. The system is designed using a modular architecture that supports seamless interaction between vision, speech, and language models while remaining lightweight enough for CPU-only execution.
+
+Vision Talk focuses on deployable multimodal AI workflows, real-time interaction, and accessibility-driven design. The project demonstrates how transformer-based vision-language systems can be orchestrated efficiently in resource-constrained environments while maintaining practical response quality and usability.
+
+The system supports:
+- Image-based contextual question answering
+- Voice and text input handling
+- Speech-based response generation
+- Offline multimodal inference
+- CPU-optimized deployment workflows
+- Modular AI pipeline integration
+
+Potential applications include accessibility tools, assistive AI systems, educational platforms, and offline intelligent assistants for low-resource environments.
+
+## Keywords
+Multimodal AI, Image Question Answering, Vision-Language Models, NLP, Speech Processing, Transformer Models, Offline AI Systems, Low-Latency Inference, AI Pipelines, CPU-Optimized Deployment
