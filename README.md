@@ -179,23 +179,6 @@ Receive:
 
 ---
 
-## 📂 Project Structure
-
-```text id="v5d1o0"
-Vision-Talk/
-│
-├── assets/                    # Screenshots, diagrams, demo files
-├── models/                    # Model loading and inference modules
-├── outputs/                   # Generated outputs
-├── app.py                     # Main application
-├── requirements.txt           # Project dependencies
-├── README.md
-│
-└── ...
-```
-
----
-
 ## 📷 Screenshots
 
 <img width="873" height="553" alt="image" src="https://github.com/user-attachments/assets/cd5cf98e-a41f-4904-81b3-3786a57a594d" />
